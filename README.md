@@ -15,6 +15,8 @@
 
 数据库使用MySQL8.0
 
+可导入的 MySQL 8.0 表结构和 mock 数据见 [comic_forum_dump.sql](comic_forum_dump.sql)。文件包含 7 张表，每张表的数据均少于 100 条；导入前请使用空的 `comic_forum` 数据库，脚本不会删除已有表。
+
 
 几个表如下：
 ![输入图片说明](sql-design/%E6%89%80%E6%9C%89%E8%A1%A8.png.png)
